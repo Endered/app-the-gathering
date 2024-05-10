@@ -1,0 +1,3 @@
+[submodule "nix-appimage"]
+	path = nix-appimage
+	url = ./nix-appimage
