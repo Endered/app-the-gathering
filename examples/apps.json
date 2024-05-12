@@ -1,0 +1,15 @@
+{
+    "output-name": "example.AppImage",
+    "dependencies" : {
+	"vim" : [
+	    {
+		"binary-name" : "vim"
+	    }
+	],
+	"coreutils" : [
+	    {
+		"binary-name" : "cat"
+	    }
+	]
+    }
+}
