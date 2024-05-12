@@ -9,6 +9,15 @@
 	    {
 		"binary-name" : "cat",
 		"alternate-name" : "corecat"
+	    },
+	    {
+		"binary-name" : "date"
+	    }
+	],
+	"gawk" : [
+	    {
+		"binary-name" : "gawk",
+		"alternate-name" : "awk"
 	    }
 	]
     }
