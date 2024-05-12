@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Setup submodule
+git submodule init
+git submodule update
+
 # Build a docker image
 docker build -t app-the-gathering .
 
@@ -9,5 +13,5 @@ docker run -v ./examples:/src app-the-gathering
 # make a softlink likely BusyBox for execution
 ln -s ./examples/gather.AppImage ./date
 
-# execute a date command!
+# Execute a date command!
 ./date
