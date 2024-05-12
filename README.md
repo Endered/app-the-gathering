@@ -22,6 +22,8 @@ AppImageのビルドには上記に記載したnix-appimageをパッケージの
 
 ## JSONの内容について
 以下のフォーマットで書いてください
+
+また、どのパッケージが使えるのかについては https://search.nixos.org/packages を参照してください。
 ```
 {
   "dependencies" : {
