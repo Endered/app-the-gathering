@@ -1,5 +1,4 @@
 {
-    "output-name": "example.AppImage",
     "dependencies" : {
 	"vim" : [
 	    {
